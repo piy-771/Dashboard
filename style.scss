@@ -79,10 +79,16 @@ nav img{
             .logo{
                 height: 50px;
                 width: 50px;
+                :hover{
+                    color: #27293D;
+                }
             }
             a{
                 text-decoration: none;
                 color: #ffffff;
+            }
+            a:hover{
+              color:#27293D;
             }
         }
 

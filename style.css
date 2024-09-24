@@ -71,9 +71,15 @@ nav img {
   height: 50px;
   width: 50px;
 }
+.section1 .sec1 .para .logo :hover {
+  color: #27293D;
+}
 .section1 .sec1 .para a {
   text-decoration: none;
   color: #ffffff;
+}
+.section1 .sec1 .para a:hover {
+  color: #27293D;
 }
 .section1 .sec1 .para1 img {
   border-radius: 50%;
