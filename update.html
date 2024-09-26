@@ -60,8 +60,9 @@
         }
         .section1{
             display: flex;
+            
             padding: 20px;
-            gap: 20px;
+            gap: 150px;
             .sec1{
                 color: #ffffff;
                 background-color: #1E88F7;
@@ -70,6 +71,8 @@
                 display: flex;
                 flex-direction: column;
                 padding: 25px;
+                height: 500px;
+                position: fixed;
                
         
                 .para{
@@ -96,10 +99,14 @@
                     }
                 }
             }
-            #demo{
-              padding-left: 100px;
-              
+            .sec2{
+              overflow-y: auto;
+              #demo{
+                padding-left: 300px;
+                
+              }
             }
+           
 
         }
       table {
@@ -264,10 +271,13 @@
             <i class="fa-solid fa-chart-simple "></i>
           </div>
           
-          <a href="index.html">Charts</a>
+          <a href="register.html">Log-Out</a>
         </div>
       </div>
-      <div id="demo"></div>
+      <div class="sec2">
+        <div id="demo"></div>
+      </div>
+      
     </div>
         
     

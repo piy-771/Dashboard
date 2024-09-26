@@ -1,13 +1,6 @@
 {
   "employees": [
     {
-      "employeeno": "569",
-      "name": "Divya",
-      "city": "Gealior",
-      "salary": "800000",
-      "id": "882c"
-    },
-    {
       "id": "3e6f",
       "employeeno": "5896",
       "name": "Piyush",
@@ -29,11 +22,11 @@
       "salary": "500000"
     },
     {
-      "id": "659c",
-      "employeeno": "69842",
-      "name": "lala land",
+      "employeeno": "698",
+      "name": "durgesh",
       "city": "New york",
-      "salary": "45260000"
+      "salary": "45260000",
+      "id": "659c"
     },
     {
       "id": "fe62",
@@ -50,11 +43,11 @@
       "salary": "56982"
     },
     {
-      "id": "cc8a",
-      "employeeno": "njskdfngj",
-      "name": "kdsfklg ",
-      "city": "kmdsflg",
-      "salary": "kldmfgl"
+      "id": "f196",
+      "employeeno": "256",
+      "name": "Riya",
+      "city": "Raipur",
+      "salary": "500000"
     }
   ]
 }
