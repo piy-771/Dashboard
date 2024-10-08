@@ -13,7 +13,7 @@ function editRow(id) {
     let myCity = document.getElementById(`city-${id}`).value;
     let mySalary = document.getElementById(`salary-${id}`).value;
   
-    let url = `http://localhost:3000/employees/${id}`;
+    let url = ` "http://dashboard-kappa-bice-45.vercel.app/employees"/${id}`;
     fetch(url, {
       method: "PUT",
       body: JSON.stringify({
@@ -41,7 +41,7 @@ function editRow(id) {
   }
   
   function myrecordRemove(id) {
-    let url = `http://localhost:3000/employees/${id}`;
+    let url = ` "http://dashboard-kappa-bice-45.vercel.app/employees"/${id}`;
   
     fetch(url, {
       method: "DELETE",
@@ -69,7 +69,7 @@ function editRow(id) {
          </tr>
       `;
   
-    let url = "http://localhost:3000/employees";
+    let url =  "http://dashboard-kappa-bice-45.vercel.app/employees";
   
     let myobj = await fetch(url);
     console.log(myobj);

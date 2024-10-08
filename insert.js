@@ -15,7 +15,7 @@ async function insert(){
     ){
       alert("All fields are mandatory")
     }else{
-      let url  = 'http://localhost:3000/employees';
+      let url  =  'http://dashboard-kappa-bice-45.vercel.app/employees';
 
       let response = await fetch(url,{
           method: "POST",

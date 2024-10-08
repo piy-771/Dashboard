@@ -8,7 +8,8 @@ async function dataShow() {
           <th>Salary</th>
         </tr>
        `;
-  let url = "http://localhost:3000/employees";
+  let url = "http://dashboard-kappa-bice-45.vercel.app/employees";
+  'dashboard-kappa-bice-45.vercel.app'
 
   let myobj = await fetch(url);
   console.log(myobj);
