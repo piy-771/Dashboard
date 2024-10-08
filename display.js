@@ -9,7 +9,7 @@ async function dataShow() {
         </tr>
        `;
   let url = "http://dashboard-kappa-bice-45.vercel.app/employees";
-  'dashboard-kappa-bice-45.vercel.app'
+ 
 
   let myobj = await fetch(url);
   console.log(myobj);
